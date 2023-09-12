@@ -145,6 +145,8 @@ TW_OZIP_DECRYPT_KEY := "0000"
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file
 TW_NO_SCREEN_BLANK := true
+TW_DEVICE_VERSION = by ismasrull
+  
 
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
