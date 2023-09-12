@@ -149,6 +149,19 @@ TW_NO_SCREEN_BLANK := true
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
 
+
+# SHRP SETTINGS
+SHRP_MAINTAINER := ismasrull
+SHRP_REC_TYPE := normal
+SHRP_DEVICE_CODE := rmx2020
+SHRP_PATH := device/realme/rmx2020
+SHRP_DEVICE_TYPE := A/B
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_AB := true
+SHRP_EXPRESS := true
+
 # Debug
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
